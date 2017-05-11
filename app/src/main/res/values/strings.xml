@@ -1,0 +1,65 @@
+<resources>
+    <!-- Application Name -->
+    <string name="app_name">Rome Tour Guide</string>
+
+    <!-- Category names for each fragment -->
+    <string name="category_sightseeing">Sightseeing</string>
+    <string name="category_restaurants">Restaurants</string>
+    <string name="category_tours">Tours</string>
+    <string name="category_shopping">Shopping</string>
+    
+    <!-- Strings for Sightseeing -->
+    <!-- Titles -->
+    <string name="colosseum">The Colosseum</string>
+    <string name="pantheon">The Pantheon</string>
+    <string name="st_peter_basilica">St. Peter\'s Basilica</string>
+    <string name="fontana_di_trevi">Fontana di Trevi</string>
+    <string name="forum">The Forum</string>
+    <string name="piazza_di_spagna">Piazza di Spagna</string>
+    <string name="piazza_navona">Piazza Navona</string>
+    <string name="galleria_borghese">Galleria Borghese</string>
+    <string name="vatican_museums">Vatican Museums</string>
+    <string name="piazza_venezia">Piazza Venezia</string>
+    <!-- Addresses -->
+    <string name="address_colosseum">Piazza del Colosseo, 1</string>
+    <string name="address_pantheon">Piazza della Rotonda</string>
+    <string name="address_st_peter_basilica">Piazza San Pietro</string>
+    <string name="address_fontana_di_trevi">Piazza di Trevi</string>
+    <string name="address_forum">Via della Salara Vecchia</string>
+    <string name="address_piazza_di_spagna">Piazza di Spagna</string>
+    <string name="address_piazza_navona">Piazza Navona</string>
+    <string name="address_galleria_borghese">Piazzale Scipione Borghese, 5</string>
+    <string name="address_vatican_museums">Viale Vaticano</string>
+    <string name="address_piazza_venezia">Piazza Venezia</string>
+    <!-- Subtext -->
+    <string name="subtext_colosseum">The famous ancient oval amphitheatre.</string>
+    <string name="subtext_pantheon">A magnificent circular former Roman Temple, now a
+        church.</string>
+    <string name="subtext_st_peter_basilica">One of the greatest christian churches.</string>
+    <string name="subtext_fontana_di_trevi">Throw a coin to return to Rome\!</string>
+    <string name="subtext_forum">This was for centuries the center of Roman public life</string>
+    <string name="subtext_piazza_di_spagna">At the bottom of the Spanish Steps, is one of the
+        most famous squares in Rome</string>
+    <string name="subtext_piazza_navona">An amazing square in baroque style</string>
+    <string name="subtext_galleria_borghese">An art gallery with paintings and beautiful
+        gardens</string>
+    <string name="subtext_vatican_museums">The famous museums featuring a wealth of historic
+    and artistic artifacts.</string>
+    <string name="subtext_piazza_venezia">The central hub of Rome, with the
+        majestic Palazzo Venezia and the Caoitoline Hill.</string>
+    <!-- Price Range -->
+    <string name="price_range_colosseum">$$</string>
+    <string name="price_range_pantheon">\-</string>
+    <string name="price_range_st_peter_basilica">\-</string>
+    <string name="price_range_fontana_di_trevi">\-</string>
+    <string name="price_range_forum">$</string>
+    <string name="price_range_piazza_di_spagna">\-</string>
+    <string name="price_range_piazza_navona">\-</string>
+    <string name="price_range_galleria_borghese">\-</string>
+    <string name="price_range_vatican_museums">$$$</string>
+    <string name="price_range_piazza_venezia">\-</string>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
