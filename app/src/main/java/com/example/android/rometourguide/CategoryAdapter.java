@@ -28,16 +28,38 @@ public class CategoryAdapter extends FragmentPagerAdapter {
 
     @Override
     public Fragment getItem(int position) {
+        if (position == 0) {
             return new SightseeingFragment();
-    }
-
-    @Override
-    public int getCount() {
-        return 1;
+        }
+        else if (position == 1) {
+            return new RestaurantsFragment();
+        }
+        else if (position == 2) {
+            return new GuidedToursFragment();
+        }
+        else {
+            return new ShoppingFragment();
+        }
     }
 
     @Override
     public CharSequence getPageTitle(int position) {
-        return mContext.getString(R.string.category_sightseeing);
+        if (position == 0) {
+            return mContext.getString(R.string.category_sightseeing);
+        }
+        else if (position == 1) {
+            return mContext.getString(R.string.category_restaurants);
+        }
+        else if (position == 2) {
+            return mContext.getString(R.string.category_tours);
+        }
+        else {
+            return mContext.getString(R.string.category_shopping);
+        }
+    }
+
+    @Override
+    public int getCount() {
+        return 4;
     }
 }

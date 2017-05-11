@@ -7,6 +7,10 @@
     <string name="category_restaurants">Restaurants</string>
     <string name="category_tours">Tours</string>
     <string name="category_shopping">Shopping</string>
+
+    <!-- Strings for Duration Unit TextView -->
+    <string name="unit_hours">hrs</string>
+    <string name="unit_days">days</string>
     
     <!-- Strings for Sightseeing -->
     <!-- Titles -->
@@ -32,33 +36,239 @@
     <string name="address_vatican_museums">Viale Vaticano</string>
     <string name="address_piazza_venezia">Piazza Venezia</string>
     <!-- Subtext -->
-    <string name="subtext_colosseum">The famous ancient oval amphitheatre.</string>
+    <string name="subtext_colosseum">The Colosseum, is an oval amphitheatre in the centre of the
+        city of Rome, Italy. Built of concrete and sand,it is the largest amphitheatre
+        ever built.</string>
     <string name="subtext_pantheon">A magnificent circular former Roman Temple, now a
-        church.</string>
-    <string name="subtext_st_peter_basilica">One of the greatest christian churches.</string>
-    <string name="subtext_fontana_di_trevi">Throw a coin to return to Rome\!</string>
-    <string name="subtext_forum">This was for centuries the center of Roman public life</string>
-    <string name="subtext_piazza_di_spagna">At the bottom of the Spanish Steps, is one of the
-        most famous squares in Rome</string>
-    <string name="subtext_piazza_navona">An amazing square in baroque style</string>
-    <string name="subtext_galleria_borghese">An art gallery with paintings and beautiful
-        gardens</string>
-    <string name="subtext_vatican_museums">The famous museums featuring a wealth of historic
-    and artistic artifacts.</string>
-    <string name="subtext_piazza_venezia">The central hub of Rome, with the
-        majestic Palazzo Venezia and the Caoitoline Hill.</string>
+        church. It is one of the best-preserved of all Ancient Roman buildings.</string>
+    <string name="subtext_st_peter_basilica"> Situated in the papal state of the Vatican, it is
+        regarded as one of the holiest Catholic shrines. It has been described as
+        the greatest of all churches of Christendom.</string>
+    <string name="subtext_fontana_di_trevi">This is the largest Baroque fountain in the city and
+        one of the most famous fountains in the world. The fountain has appeared in several
+        notable films, including Federico Fellini\'s La Dolce Vita.</string>
+    <string name="subtext_forum">This was for centuries the center of Roman public life: the site
+        of triumphal processions and elections; the venue for public speeches, criminal trials,
+        and gladiatorial matches; and the nucleus of commercial affairs.</string>
+    <string name="subtext_piazza_di_spagna">Situated at the bottom of the Spanish Steps, this is one
+        of the most famous squares in Rome. Nearby is the famed Column of the Immaculate
+        Conception of the Blessed Virgin Mary.</string>
+    <string name="subtext_piazza_navona">This square is a highly significant example of Baroque
+        Roman architecture and art. It has three fountains. A Christmas market is held in the
+        piazza. </string>
+    <string name="subtext_galleria_borghese">The Galleria Borghese houses a substantial part of
+        the Borghese collection of paintings, sculpture and antiquities, begun by Cardinal
+        Scipione Borghese, the nephew of Pope Paul V.</string>
+    <string name="subtext_vatican_museums">They display works from the immense collection built
+        up by the Popes throughout the centuries including some of the most renowned classical
+        sculptures and most important masterpieces of Renaissance art in the world. The museums
+        contain roughly 70,000 works, of which 20,000 are on display.</string>
+    <string name="subtext_piazza_venezia">Piazza Venezia is the central hub of Rome, Italy, in
+        which several thoroughfares intersect, including the Via dei Fori Imperiali and the Via
+        del Corso. It takes its name from the Palazzo Venezia.</string>
     <!-- Price Range -->
     <string name="price_range_colosseum">$$</string>
-    <string name="price_range_pantheon">\-</string>
-    <string name="price_range_st_peter_basilica">\-</string>
-    <string name="price_range_fontana_di_trevi">\-</string>
+    <string name="price_range_pantheon">Free</string>
+    <string name="price_range_st_peter_basilica">Free</string>
+    <string name="price_range_fontana_di_trevi">Free</string>
     <string name="price_range_forum">$</string>
-    <string name="price_range_piazza_di_spagna">\-</string>
-    <string name="price_range_piazza_navona">\-</string>
-    <string name="price_range_galleria_borghese">\-</string>
+    <string name="price_range_piazza_di_spagna">Free</string>
+    <string name="price_range_piazza_navona">Free</string>
+    <string name="price_range_galleria_borghese">Free</string>
     <string name="price_range_vatican_museums">$$$</string>
-    <string name="price_range_piazza_venezia">\-</string>
+    <string name="price_range_piazza_venezia">Free</string>
 
+
+    <!-- Strings for Resaurants -->
+    <!-- Titles -->
+    <string name="birra_e_sale">Birra e Sale</string>
+    <string name="la_porta_del_principe">La Porta del Principe</string>
+    <string name="panino_divino">Panino Divino</string>
+    <string name="pane_e_salame">Pane e Salame</string>
+    <string name="buone_maniere">Buone Maniere</string>
+    <string name="i_frattelli">Ristorante Pizzeria I frattelli</string>
+    <string name="sapori_e_delizie">Sapori e Delizie</string>
+    <string name="la_pergola">La Pergola</string>
+    <string name="ad_hoc">Ad Hoc</string>
+    <string name="maestrale">Ristorante Maestrale</string>
+    <!-- Addresses -->
+    <string name="address_birra_e_sale">Via del Governo Vecchio 90</string>
+    <string name="address_la_porta_del_principe">Via Portuense, 1585</string>
+    <string name="address_panino_divino">Via Dei Gracchi 11/a</string>
+    <string name="address_pane_e_salame">Via di Santa Maria in Via 19</string>
+    <string name="address_buone_maniere">Via Tor de Schiavi 77</string>
+    <string name="address_i_frattelli">Via degli Umbri, 14/18</string>
+    <string name="address_sapori_e_delizie">Via Giovanni Lanza,102</string>
+    <string name="address_la_pergola">Via Alberto Cadlolo 101</string>
+    <string name="address_ad_hoc">Via Ripetta 43</string>
+    <string name="address_maestrale">Piazza Callistio Elio 5</string>
+    <!-- Phone Number -->
+    <string name="phone_number_birra_e_sale">+39 06 6830 7424</string>
+    <string name="phone_number_la_porta_del_principe">+39 06 6500 1249</string>
+    <string name="phone_number_panino_divino">+39 06 3973 7803</string>
+    <string name="phone_number_pane_e_salame">+39 06 679 1352</string>
+    <string name="phone_number_buone_maniere">+39 06 241 5548</string>
+    <string name="phone_number_i_frattelli">+39 06 446 9856</string>
+    <string name="phone_number_sapori_e_delizie">+39 06 487 5450</string>
+    <string name="phone_number_la_pergola">+39 06 350 91</string>
+    <string name="phone_number_ad_hoc">+39 06 323 3040</string>
+    <string name="phone_number_maestrale">+39 06 8639 1914</string>
+    <!-- Subtext -->
+    <string name="subtext_birra_e_sale">Sandwiches</string>
+    <string name="subtext_la_porta_del_principe">Local Cuisine, Gourmet</string>
+    <string name="subtext_panino_divino">Sandwiches</string>
+    <string name="subtext_pane_e_salame">Sandwiches</string>
+    <string name="subtext_buone_maniere">Pizza</string>
+    <string name="subtext_i_frattelli">Pizza</string>
+    <string name="subtext_sapori_e_delizie">Pizza</string>
+    <string name="subtext_la_pergola">Local Cuisine, Gourmet</string>
+    <string name="subtext_ad_hoc">Local Cuisine, Gourmet</string>
+    <string name="subtext_maestrale">Local Cuisine, Fish</string>
+    <!-- Price Range -->
+    <string name="price_range_birra_e_sale">$</string>
+    <string name="price_range_la_porta_del_principe">$$$$</string>
+    <string name="price_range_panino_divino">$</string>
+    <string name="price_range_pane_e_salame">$</string>
+    <string name="price_range_buone_maniere">$</string>
+    <string name="price_range_i_frattelli">$$</string>
+    <string name="price_range_sapori_e_delizie">$</string>
+    <string name="price_range_la_pergola">$$$$</string>
+    <string name="price_range_ad_hoc">$$$$</string>
+    <string name="price_range_maestrale">$$$$</string>
+
+
+    <!-- Guided Tours -->
+    <!-- Title -->
+    <string name="tour_colosseum">Colosseum</string>
+    <string name="tour_vatican_city">Vatican City and the Vatican Museums</string>
+    <string name="tour_villa_borghese">Borghese Gallery and Gardens</string>
+    <string name="tour_wine_tasting">Wine Tasting</string>
+    <string name="tour_walking_tour">Walking Tour \– Best of Rome</string>
+    <string name="tour_rome_by_night">Rome by night</string>
+    <string name="tour_forum">The Forum and via Appia</string>
+    <string name="tour_countryside">Countryside half day tour</string>
+    <string name="tour_museums">Museums and Castles</string>
+    <string name="tour_crypts">Private Crypts and Catacombs</string>
+    <!-- Phone Number-->
+    <string name="phone_number_tour_colosseum">+39 06 8977 9628</string>
+    <string name="phone_number_tour_vatican_city">+39 06 5213 2620</string>
+    <string name="phone_number_tour_villa_borghese">+39 06 7617 4409</string>
+    <string name="phone_number_tour_wine_tasting">+39 06 7086 6102</string>
+    <string name="phone_number_tour_walking_tour">+39 06 8802 1265</string>
+    <string name="phone_number_tour_rome_by_night">+39 06 9958 3706</string>
+    <string name="phone_number_tour_forum">+39 06 8238 3023</string>
+    <string name="phone_number_tour_countryside">+39 06 0317 8379</string>
+    <string name="phone_number_tour_museums">+39 06 9571 9736</string>
+    <string name="phone_number_tour_crypts">+39 06 7925 7043</string>
+    <!-- Address -->
+    <string name="address_tour_colosseum">Colosseum</string>
+    <string name="address_tour_vatican_city">Vatican Museums</string>
+    <string name="address_tour_villa_borghese">Fontana di Trevi</string>
+    <string name="address_tour_wine_tasting">Piazza di Spagna</string>
+    <string name="address_tour_walking_tour">Piazza Navona</string>
+    <string name="address_tour_rome_by_night">Strada Provinciale 65 85</string>
+    <string name="address_tour_forum">Piazza Bovio 116</string>
+    <string name="address_tour_countryside">Via Sacchi 79</string>
+    <string name="address_tour_museums">Via Leopardi 34</string>
+    <string name="address_tour_crypts">Via Nuova del Campo 12</string>
+    <!-- Subtext -->
+    <string name="subtext_tour_colosseum">Learn the history of one of the most important
+        Roman sites. Explore the site and discover the life of the Romans and the
+        Gladiators!</string>
+    <string name="subtext_tour_vatican_city">A guided tour to the entirety of the museums of
+        the Vatican and St. Peter\'s cathedral. A private tour of the catacombs as well as access
+        to the roof is included. </string>
+    <string name="subtext_tour_villa_borghese">Guided tour of the treasures of this amazing
+        painting gallery. Afterwards, enjoy a walk and snack in the wonderful park.</string>
+    <string name="subtext_tour_wine_tasting">Are you a wine connoisseur? Even if you are
+        not, be prepared for an introduction to Italy\'s finest wine varieties that will
+        leave you wanting for more...</string>
+    <string name="subtext_tour_walking_tour">Rome\'s historic centre is trully amazing. Ever
+    wanted to see it all? Or walk in the hidden alleys only the locals know? Join us!</string>
+    <string name="subtext_tour_rome_by_night">Ever wanted to take that breathtaking picture of St.
+        Peter\'s Basilica by night? Or enjoy a night out like only Italians do?</string>
+    <string name="subtext_tour_forum">A guided tour to the city\'s ancient history. See the
+    Colosseum, learn the history of the Roman Forum, the true center of the ancient
+        empire and feel like an ancient Roman by walking the well preserved Via Appia!</string>
+    <string name="subtext_tour_countryside">Bus tour with frequent stops for pictures, and
+        visits in the countryside surrounding Rome. A meal, snack and a visit to a historic
+    monastery are included.</string>
+    <string name="subtext_tour_museums">Guided tour to the most important museums in Rome.
+        The tour lasts for two days and you have a choice of up to 12 museums to visit.</string>
+    <string name="subtext_tour_crypts">Unknown by many, the crypts and catacombs underneath
+    Rome span many miles. Be prepared to uncover the dark and mysterious history of this
+        underworld and live the experience of a lifetime.</string>
+    <!-- Price Range -->
+    <string name="price_range_tour_colosseum">60$</string>
+    <string name="price_range_tour_vatican_city">70$</string>
+    <string name="price_range_tour_villa_borghese">65$</string>
+    <string name="price_range_tour_wine_tasting">65$</string>
+    <string name="price_range_tour_walking_tour">40$</string>
+    <string name="price_range_tour_rome_by_night">120$</string>
+    <string name="price_range_tour_forum">30$</string>
+    <string name="price_range_tour_countryside">120$</string>
+    <string name="price_range_tour_museums">150$</string>
+    <string name="price_range_tour_crypts">250$</string>
+
+
+    <!-- Shopping -->
+    <!-- Title -->
+    <string name="shopping_piazza_di_spagna">Piazza di Spagna</string>
+    <string name="shopping_via_condotti">Via Condotti</string>
+    <string name="shopping_via_del_babuino">Via del Babuino</string>
+    <string name="shopping_mcarthur">McArthur Glen Designer Outlet</string>
+    <string name="shopping_via_del_corso">Via del Corso</string>
+    <string name="shopping_via_cola_di_rienzo">Via Cola di Rienzo</string>
+    <string name="shopping_valmontone">Valmontone Outlet</string>
+    <string name="shopping_via_nazionale">Via Nazionale</string>
+    <string name="shopping_porta_portese">Porta Portese Flea Market</string>
+    <string name="shopping_eurroma2">EurRoma2</string>
+    <!-- Address -->
+    <string name="address_shopping_piazza_di_spagna">Piazza di Spagna</string>
+    <string name="address_shopping_via_condotti">Via Condotti</string>
+    <string name="address_shopping_via_del_babuino">Via del Babuino</string>
+    <string name="address_shopping_mcarthur">Riserva Naturale di Decima Malafede, Via del Ponte di Piscina Cupa, 64</string>
+    <string name="address_shopping_via_del_corso">Via del Corso</string>
+    <string name="address_shopping_via_cola_di_rienzo">Via Cola di Rienzo</string>
+    <string name="address_shopping_valmontone">Via della Pace, Valmontone</string>
+    <string name="address_shopping_via_nazionale">Via Nazionale</string>
+    <string name="address_shopping_porta_portese">Porta Portese</string>
+    <string name="address_shopping_eurroma2">Viale dell\'Oceano Pacifico, 83</string>
+    <!-- Subtext -->
+    <string name="subtext_shopping_piazza_di_spagna">Perhaps the most famous shopping district in Rome is the area surrounding Piazza di Spagna, at the base of the Spanish Steps.</string>
+    <string name="subtext_shopping_via_condotti">A parallel street connecting via del Corso and
+        Piazza di Spagna, it has the big firms of Italian and international fashion from Prada to
+        Valentino, Hermes, Trussardi, Moschino and more... even if you can\'t afford shopping
+        there, don\'t miss a stroll in the area to admire the displays in the windows.</string>
+    <string name="subtext_shopping_via_del_babuino">A very elegant street, connecting Piazza del
+        Popolo and Piazza di Spagna. There you can find designer shoes, clothes, jewelries, high end antique stores, a couple of book stores (including the Touring Club, where you can find great maps and books about Rome, Italy and more) and several famous brand boutiques, including Emporio Armani.</string>
+    <string name="subtext_shopping_mcarthur">For outlet shopping, go to the Castel Romano
+        Designer Outlet \u2010 here you will find all the designer brands and some good deals.
+        There are about 90 stores such as Versace reduced by about 40% of the normal retail price.</string>
+    <string name="subtext_shopping_via_del_corso">This is far more hectic and less family
+        oriented. Loads of shops with fashions and plenty  of small bars you can stand in and get a quick snack or drink.</string>
+    <string name="subtext_shopping_via_cola_di_rienzo">Via Cola di Rienzo, the commercial heart of the Prati neighborhood just north of the Vatican, is a popular shopping destination for Romans.</string>
+    <string name="subtext_shopping_valmontone">Although really out of Rome (40km) south towards
+        Naples on the motorway but also here there are great deals and loads of shops \u2010 maybe
+        better for men\'s suits etc than the Castel Romano.</string>
+    <string name="subtext_shopping_via_nazionale">Connecting piazza della Repubblica and largo
+        Magnanapoli, has plenty of shops where you can shop on a budget and get more value for your money.</string>
+    <string name="subtext_shopping_porta_portese">If you like bargains and flea markets, be
+        sure not to miss on this one!</string>
+    <string name="subtext_shopping_eurroma2">If you prefer staying within the city limits,
+        there\'s a huge shopping centre in the EUR district called Euroma 2; to reach it, take the
+        B line of the metro (direction: Laurentina) and get off at the Eur \u2010 Fermi stop.</string>
+    <!-- Price Range -->
+    <string name="price_range_shopping_piazza_di_spagna">$$ \u2010 $$$$</string>
+    <string name="price_range_shopping_via_condotti">$$$ \u2010 $$$$</string>
+    <string name="price_range_shopping_via_del_babuino">$$$ \u2010 $$$$</string>
+    <string name="price_range_shopping_mcarthur">$ \u2010 $$$$</string>
+    <string name="price_range_shopping_via_del_corso">$$ \u2010 $$$$</string>
+    <string name="price_range_shopping_via_cola_di_rienzo">$ \u2010 $$</string>
+    <string name="price_range_shopping_valmontone">$ \u2010 $$$$</string>
+    <string name="price_range_shopping_via_nazionale">$$</string>
+    <string name="price_range_shopping_porta_portese">$</string>
+    <string name="price_range_shopping_eurroma2">$ \u2010 $$$$</string>
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>

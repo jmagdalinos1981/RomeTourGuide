@@ -31,36 +31,36 @@ public class SightseeingFragment extends Fragment {
 
         // Populate item list
         tourItems.add(new TourItem(R.drawable.colosseum, getResources().getString(R.string
-                .colosseum), "", 0, getResources().getString(R.string
+                .colosseum), getResources().getString(R.string
                 .address_colosseum), getResources().getString(R
                 .string.subtext_colosseum), getResources().getString(R.string.price_range_colosseum)));
-        tourItems.add(new TourItem(R.drawable.colosseum, getResources().getString(R.string
-                .pantheon), "", 0,  getResources().getString(R.string.address_pantheon), getResources().getString(R
+        tourItems.add(new TourItem(R.drawable.pantheon, getResources().getString(R.string
+                .pantheon),  getResources().getString(R.string.address_pantheon), getResources().getString(R
                 .string.subtext_pantheon), getResources().getString(R.string
                 .price_range_pantheon)));
-        tourItems.add(new TourItem(R.drawable.colosseum, getResources().getString(R.string
-                .st_peter_basilica), "", 0,  getResources().getString(R.string.address_st_peter_basilica), getResources().getString(R
+        tourItems.add(new TourItem(R.drawable.st_peter, getResources().getString(R.string
+                .st_peter_basilica),  getResources().getString(R.string.address_st_peter_basilica), getResources().getString(R
                 .string.subtext_st_peter_basilica), getResources().getString(R.string.price_range_st_peter_basilica)));
-        tourItems.add(new TourItem(R.drawable.colosseum, getResources().getString(R.string
-                .fontana_di_trevi), "", 0,  getResources().getString(R.string.address_fontana_di_trevi), getResources().getString(R
+        tourItems.add(new TourItem(R.drawable.fontana_di_trevi, getResources().getString(R.string
+                .fontana_di_trevi),  getResources().getString(R.string.address_fontana_di_trevi), getResources().getString(R
                 .string.subtext_fontana_di_trevi), getResources().getString(R.string.price_range_fontana_di_trevi)));
-        tourItems.add(new TourItem(R.drawable.colosseum, getResources().getString(R.string
-                .forum), "", 0,  getResources().getString(R.string.address_forum), getResources().getString(R
+        tourItems.add(new TourItem(R.drawable.forum, getResources().getString(R.string
+                .forum),  getResources().getString(R.string.address_forum), getResources().getString(R
                 .string.subtext_forum), getResources().getString(R.string.price_range_forum)));
-        tourItems.add(new TourItem(R.drawable.colosseum, getResources().getString(R.string
-                .piazza_di_spagna), "", 0,  getResources().getString(R.string.address_piazza_di_spagna), getResources().getString(R
+        tourItems.add(new TourItem(R.drawable.piazza_di_spagna, getResources().getString(R.string
+                .piazza_di_spagna),  getResources().getString(R.string.address_piazza_di_spagna), getResources().getString(R
                 .string.subtext_piazza_di_spagna), getResources().getString(R.string.price_range_piazza_di_spagna)));
-        tourItems.add(new TourItem(R.drawable.colosseum, getResources().getString(R.string
-                .piazza_navona), "", 0,  getResources().getString(R.string.address_piazza_navona), getResources().getString(R
+        tourItems.add(new TourItem(R.drawable.piazza_navona, getResources().getString(R.string
+                .piazza_navona),  getResources().getString(R.string.address_piazza_navona), getResources().getString(R
                 .string.subtext_piazza_navona), getResources().getString(R.string.price_range_piazza_navona)));
-        tourItems.add(new TourItem(R.drawable.colosseum, getResources().getString(R.string
-                .galleria_borghese), "", 0,  getResources().getString(R.string.address_galleria_borghese), getResources().getString(R
+        tourItems.add(new TourItem(R.drawable.galleria_borghese, getResources().getString(R.string
+                .galleria_borghese),  getResources().getString(R.string.address_galleria_borghese), getResources().getString(R
                 .string.subtext_galleria_borghese), getResources().getString(R.string.price_range_galleria_borghese)));
-        tourItems.add(new TourItem(R.drawable.colosseum, getResources().getString(R.string
-                .vatican_museums), "", 0,  getResources().getString(R.string.address_vatican_museums), getResources().getString(R
+        tourItems.add(new TourItem(R.drawable.vatican_museums, getResources().getString(R.string
+                .vatican_museums),  getResources().getString(R.string.address_vatican_museums), getResources().getString(R
                 .string.subtext_vatican_museums), getResources().getString(R.string.price_range_vatican_museums)));
-        tourItems.add(new TourItem(R.drawable.colosseum, getResources().getString(R.string
-                .piazza_venezia), "", 0,  getResources().getString(R.string.address_piazza_venezia), getResources().getString(R
+        tourItems.add(new TourItem(R.drawable.piazza_venezia, getResources().getString(R.string
+                .piazza_venezia),  getResources().getString(R.string.address_piazza_venezia), getResources().getString(R
                 .string.subtext_piazza_venezia), getResources().getString(R.string.price_range_piazza_venezia)));
 
         // Create an {@link CustomItemAdapter}, whose data source is a list of {@link TourItem}s.

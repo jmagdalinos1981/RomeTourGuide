@@ -55,15 +55,44 @@ public class CustomItemAdapter extends ArrayAdapter<TourItem>{
 
         // Find the TextView in the tour_item.xml layout with the ID phone_number.
         TextView phoneNumberTextView = (TextView) tourItemView.findViewById(R.id.phone_number);
-        // Get the Phone Number from the currentTourItem object and set this text on
-        // the Phone Number TextView.
-        phoneNumberTextView.setText(currentTourItem.getmPhoneNumber());
+        // Find the ImageView in the tour_item.xml layout with the ID phone_icon.
+        ImageView phoneIconImageView = (ImageView) tourItemView.findViewById(R.id.phone_icon);
+        // Check if a phone number is provided for this item or not
+        if (currentTourItem.hasPhoneNumber()) {
+            // If a phone number is available, get the Phone Number from the currentTourItem object
+            // and set this text on the Phone Number TextView.
+            phoneNumberTextView.setText(currentTourItem.getmPhoneNumber());
+            // Make sure the view is visible
+            phoneNumberTextView.setVisibility(View.VISIBLE);
+            phoneIconImageView.setVisibility(View.VISIBLE);
+        } else {
+            // Otherwise hide the TextView (set visibility to GONE)
+            phoneNumberTextView.setVisibility(View.GONE);
+            phoneIconImageView.setVisibility(View.GONE);
+        }
 
         // Find the TextView in the tour_item.xml layout with the ID duration.
         TextView durationTextView = (TextView) tourItemView.findViewById(R.id.duration);
-        // Get the Duration from the currentTourItem object and set this text on
-        // the Duration TextView.
-        durationTextView.setText(currentTourItem.getmDuration());
+        // Find the TextView in the tour_item.xml layout with the ID duration_unit.
+        TextView durationUnitTextView = (TextView) tourItemView.findViewById(R.id.duration_unit);
+        // Find the ImageView in the tour_item.xml layout with the ID duration_icon.
+        ImageView durationIconImageView = (ImageView) tourItemView.findViewById(R.id.duration_icon);
+        // Check if a duration is provided for this item or not
+        if (currentTourItem.hasDuration()) {
+            // If a duration is available, get the Duration from the currentTourItem object and
+            // set this text on Duration TextView.
+            durationTextView.setText(currentTourItem.getmDuration());
+            durationUnitTextView.setText(currentTourItem.isHours());
+            // Make sure the view is visible
+            durationTextView.setVisibility(View.VISIBLE);
+            durationUnitTextView.setVisibility(View.VISIBLE);
+            durationIconImageView.setVisibility(View.VISIBLE);
+        } else {
+            // Otherwise hide the TextView (set visibility to GONE)
+            durationTextView.setVisibility(View.GONE);
+            durationUnitTextView.setVisibility(View.GONE);
+            durationIconImageView.setVisibility(View.GONE);
+        }
 
         // Find the TextView in the tour_item.xml layout with the ID subtext.
         TextView subtextTextView = (TextView) tourItemView.findViewById(R.id.subtext);

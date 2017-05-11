@@ -8,4 +8,48 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
+    <!-- Tabs -->
+    <style name="categoryTabs" parent="Widget.Design.TabLayout">
+        <item name="tabTextAppearance">@style/categoryTabText</item>
+    </style>
+
+    <!-- Tab Text -->
+    <style name="categoryTabText" parent="TextAppearance.Design.Tab">
+        <item name="android:textSize">@dimen/textSize_categoryTabText</item>
+    </style>
+
+    <!-- Item Images -->
+    <style name="itemImages">
+        <item name="android:layout_gravity">center</item>
+    </style>
+
+    <!-- TextView LinearLayout Containers -->
+    <style name="container">
+        <item name="android:minHeight">@dimen/minHeight_Containers</item>
+        <item name="android:padding">@dimen/padding_Text</item>
+    </style>
+
+    <!-- Title Text -->
+    <style name="titleText">
+        <item name="android:textAppearance">@style/Base.TextAppearance.AppCompat.Medium</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:paddingBottom">@dimen/padding_Text</item>
+    </style>
+
+    <!-- Subtext -->
+    <style name="subtext">
+        <item name="android:paddingBottom">@dimen/padding_Text</item>
+    </style>
+
+    <!-- Icons -->
+    <style name="icons">
+        <item name="android:paddingBottom">@dimen/padding_Icons</item>
+        <item name="android:paddingTop">@dimen/padding_Icons</item>
+        <item name="android:paddingRight">@dimen/padding_Icons</item>
+    </style>
+
+    <!-- Main Text -->
+    <style name="mainText">
+        <item name="android:layout_gravity">center_vertical</item>
+    </style>
 </resources>

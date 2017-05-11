@@ -14,14 +14,14 @@ public class TourItem {
     /** Title of the item (all categories) */
     private String mTitle;
 
-    /** Phone number for the item (restaurants) */
-    private String mPhoneNumber;
+    /** Phone number for the item (restaurants, guided tours) */
+    private String mPhoneNumber = NO_PHONE_NUMBER_PROVIDED;
 
     /** Address for the item (all categories) */
     private String mAddress;
 
     /** Duration for the item (guided tours) */
-    private int mDuration;
+    private int mDuration = NO_DURATION_PROVIDED;
 
     /** Subtext with a few words about each item (all categories) */
     private String mSubtext;
@@ -29,8 +29,56 @@ public class TourItem {
     /** Price range for the item (restaurants, guided tours) */
     private String mPriceRange;
 
+    /** Duration Unit type for the item (guided tours) */
+    private String mIsHours;
+
+    //** Constant value that represents no duration was provided for this item */
+    private static final int NO_DURATION_PROVIDED = -1;
+
+    //** Constant value that represents no phone number was provided for this item */
+    private static final String NO_PHONE_NUMBER_PROVIDED = "None";
+
+    /**
+     * Create a new TourItem object for Sighseeing, Shopping
+     *
+     * @param imageResourceID is the resource ID for the image to be used
+     * @param title is the item name
+     * @param address is the address of the sight/locale
+     * @param subtext is the text accompanying the item
+     * @param priceRange is the price range in $ - $$$$
+     */
+
+    public TourItem(int imageResourceID, String title,
+                    String address, String subtext, String priceRange){
+        mImageResourceID = imageResourceID;
+        mTitle = title;
+        mAddress = address;
+        mSubtext = subtext;
+        mPriceRange = priceRange;
+    }
+
     /**
      * Create a new TourItem object for Restaurants
+     *
+     * @param imageResourceID is the resource ID for the image to be used
+     * @param title is the item name
+     * @param phoneNumber is the phone number of the locale
+     * @param address is the address of the sight/locale
+     * @param subtext is the text accompanying the item
+     * @param priceRange is the price range in $ - $$$$
+     */
+
+    public TourItem(int imageResourceID, String title, String phoneNumber,
+                    String address, String subtext, String priceRange){
+        mImageResourceID = imageResourceID;
+        mTitle = title;
+        mPhoneNumber = phoneNumber;
+        mAddress = address;
+        mSubtext = subtext;
+        mPriceRange = priceRange;
+    }
+    /**
+     * Create a new TourItem object for Guided Tours
      *
      * @param imageResourceID is the resource ID for the image to be used
      * @param title is the item name
@@ -39,10 +87,11 @@ public class TourItem {
      * @param address is the address of the sight/locale
      * @param subtext is the text accompanying the item
      * @param priceRange is the price range in $ - $$$$
+     * @param isHours is the type of duration unit (hrs or days)
      */
 
     public TourItem(int imageResourceID, String title, String phoneNumber, int duration,
-                    String address, String subtext, String priceRange){
+                    String address, String subtext, String priceRange, String isHours){
         mImageResourceID = imageResourceID;
         mTitle = title;
         mPhoneNumber = phoneNumber;
@@ -50,6 +99,7 @@ public class TourItem {
         mAddress = address;
         mSubtext = subtext;
         mPriceRange = priceRange;
+        mIsHours = isHours;
     }
 
     /** Methods for getting all the aforementioned variables */
@@ -80,6 +130,18 @@ public class TourItem {
 
     public String getmPriceRange() {
         return mPriceRange;
+    }
+
+    public String isHours() {
+        return mIsHours;
+    }
+
+    public boolean hasPhoneNumber() {
+        return mPhoneNumber != NO_PHONE_NUMBER_PROVIDED;
+    }
+
+    public boolean hasDuration() {
+        return mDuration != NO_DURATION_PROVIDED;
     }
 
 }
