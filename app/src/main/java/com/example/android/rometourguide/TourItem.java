@@ -39,7 +39,7 @@ public class TourItem {
     private static final String NO_PHONE_NUMBER_PROVIDED = "None";
 
     /**
-     * Create a new TourItem object for Sighseeing, Shopping
+     * Create a new TourItem object for Sightseeing, Shopping
      *
      * @param imageResourceID is the resource ID for the image to be used
      * @param title is the item name
